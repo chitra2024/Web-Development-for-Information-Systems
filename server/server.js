@@ -20,6 +20,6 @@ const courseRoutes = require('./routes/courseRoutes');
 app.use('/api/users', userRoutes);
 app.use('/api/courses', courseRoutes);
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT;
 
 app.listen(PORT, console.log(`Server running on port ${PORT}`));
