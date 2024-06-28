@@ -1,0 +1,15 @@
+.container {
+    padding-top: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-text {
+    min-height: 60px; /* Adjust based on your needs to ensure consistent card height */
+}
+
+.modal-lg {
+    max-width: 80%;
+}

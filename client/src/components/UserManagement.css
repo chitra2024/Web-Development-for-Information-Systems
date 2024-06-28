@@ -1,0 +1,97 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card-body {
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.card h1 {
+    margin-bottom: 20px;
+}
+
+.card .form-control {
+    border-radius: 5px;
+}
+
+.card .btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.row .card {
+    margin-bottom: 20px;
+}
+
+.row .card .card-body {
+    flex-grow: 1;
+}
+
+.card .btn-sm {
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+.card .btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.card .btn-warning {
+    background-color: #ffc107;
+    border: none;
+}
+
+.card .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.text-dark {
+    color: #343a40 !important;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.user-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.user-item .btn {
+    margin-left: 10px;
+}

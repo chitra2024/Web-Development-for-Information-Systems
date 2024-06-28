@@ -1,0 +1,15 @@
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.navbar-toggler {
+    border: none;
+}
