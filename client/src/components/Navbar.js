@@ -2,19 +2,18 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './Navbar.css';
 
-const Navbar = () => {
+const Navbar = ({ userInfo, onLogout }) => {
     const navigate = useNavigate();
-    const userInfo = JSON.parse(localStorage.getItem('userInfo'));
 
     const logoutHandler = () => {
-        localStorage.removeItem('userInfo');
+        onLogout();
         navigate('/');
     };
 
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
             <div className="container-fluid">
-                <Link className="navbar-brand" to="/">SkillHub</Link>
+                <Link className="navbar-brand" to="/">Home</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

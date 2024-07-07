@@ -26,3 +26,11 @@
 .navbar .ms-auto .nav-link {
     color: #000 !important;
 }
+
+.navbar-toggler-icon {
+    color: #007bff;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
